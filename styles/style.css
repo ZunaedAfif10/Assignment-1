@@ -181,3 +181,37 @@ header #banner{
     color: #627382;
 }
 
+#more{
+    padding: 115.2px;
+}
+
+#more .more-info{
+    display: flex;
+    align-items: center;
+    gap: 57.6px;
+}
+
+#more .more-info .top .head{
+    color: #469165;
+    font-weight: 500;
+    font-size: 15.36px;
+    padding-bottom: 15.36px;
+}
+
+#more .more-info .top h1{
+    font-weight: 700;
+    font-size: 47px;
+    padding-bottom: 15.36px;
+}
+
+#more .more-info .top .detail{
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 38.4px;
+    color: #627382;
+}
+
+#more .more-info .bottom p{
+    margin-bottom: 15.36px;
+}
+
