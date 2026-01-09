@@ -204,6 +204,9 @@ header #banner{
     display: flex;
     align-items: center;
     gap: 57.6px;
+    justify-content: center;
+    max-width: 1305.6px;
+    margin: 0 auto;
 }
 
 #more .more-info .top .head{
