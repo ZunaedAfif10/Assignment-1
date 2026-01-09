@@ -34,6 +34,20 @@
     gap: 9.6px;
 }
 
+.btn-3{
+    background-color: #469165;
+    border: none;
+    padding: 15.46px;
+    border-radius: 3.84px;
+    align-items: center;
+    display: inline-flex;
+    gap: 9.6px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     gap: 332.5px;
@@ -213,5 +227,39 @@ header #banner{
 
 #more .more-info .bottom p{
     margin-bottom: 15.36px;
+}
+
+#ready{
+    padding: 0 115.2px 115.2px;
+}
+
+#ready .ready-think{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 76.8px 38.4px;
+}
+
+#ready .ready-think .think h1{
+    font-weight: 700;
+    font-size: 39px;
+    padding-bottom: 15.36px;
+}
+
+#ready .ready-think .think p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 23.4px;
+    color: #627382;
+}
+
+#ready .ready-think .access button{
+    margin-bottom: 15.36px;
+}
+
+#ready .ready-think .access p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 23.4px;
+    color: #627382;
 }
 
