@@ -20,6 +20,20 @@
     cursor: pointer;
 }
 
+.btn-2{
+    background-color: #469165;
+    border: none;
+    padding: 15.46px;
+    border-radius: 3.84px;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15.36px;
+    align-items: center;
+    display: inline-flex;
+    gap: 9.6px;
+}
+
 nav{
     display: flex;
     gap: 332.5px;
@@ -43,5 +57,127 @@ nav .list a{
     text-decoration: none;
     color: #000000;
     font-size: 15.36px;
+}
+
+header #banner{
+    background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 115.2px 172px;
+    text-align: center;
+}
+
+#banner .top{
+    margin-bottom: 15.36px;
+    display: inline-flex;
+    gap: 5px;
+    border: 1px solid red;
+    background-color: white;
+    padding: 7.68px 11.52px;
+    border-radius: 960px;
+    color: #469165;
+    font-size: 15.36px;
+    font-weight: 500;
+}
+#banner .top img{
+    width: 20px;
+}
+#banner h1{
+   
+   line-height: 80.6px;
+   font-size: 70px;
+   color: #FFFFFF;
+   width: 770px;
+   margin: 0 auto;
+}
+
+#banner h1 span{
+    color: #30B868;
+}
+
+#banner p{
+    margin-top: 15.36px;
+    font-size: 17.28px;
+    font-weight: 400;
+    margin-bottom: 30.72px;
+    color: #FFFFFF;
+}
+
+#banner p span{
+    display: inline-block;
+    line-height: 30px;
+}
+
+#banner .about{
+    display: flex;
+    justify-content: center;
+    gap: 15.36px;
+}
+
+#banner .transparent{
+    border: 1px solid #FFFFFF;
+    padding: 14.5px;
+    border-radius: 3.84px;
+    font-size: 15.36px;
+    font-weight: 600;
+    background: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#ideas .idea-all{
+    background-color: #FFFFFF;
+    max-width: 1305.6px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#ideas .idea-all .heading{
+    padding-bottom: 43px;
+}
+
+#ideas .idea-all .heading h1{
+    font-size: 47px;
+    color: #001931;
+    font-weight: 600;
+}
+
+#ideas .idea-all .heading p{
+    margin-top: 16px;
+    color: #627382;
+    font-style: 400;
+    font-size: 14px;
+}
+
+#ideas .idea-all .idea-containers{
+    display: flex;
+    gap: 23.04px;
+}
+
+#ideas .idea-all .idea-containers .idea-info{
+  border-radius: 7.68px;
+  box-shadow: 0 0 7px #00000010;
+  padding: 66.5px 23px;
+}
+
+#ideas .idea-all .idea-containers .idea-info img{
+    border: 1px solid #F95555;
+    background: #F95555;
+    border-radius: 50%;
+    padding: 13.5px;
+    margin-bottom: 15.36px;
+}
+
+.idea-info h2{
+    margin-bottom: 15.36px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.idea-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #627382;
 }
 
